@@ -46,9 +46,4 @@ User
 - How much money the user has in the account
 - Last User Review
 
-As of right now i have implemented only
-- Vehicle Inventory Management
-- Maintenance and Service Records
-- Damage and Incident Reporting
-- Reservation System: Customers can make, modify, and cancel reservations
-- Customer Profile Management: Managing customer information and rental history
+All of the features are implemented.
