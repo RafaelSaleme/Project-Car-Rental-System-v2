@@ -11,8 +11,6 @@ Car Rental System
 
 • Rental Agreement Management: Digital creation and management of rental agreements;
 
-• GPS and Vehicle Tracking: Integration of GPS tracking for rented vehicles;
-
 • Maintenance and Service Records: Tracking maintenance and service history of vehicles;
 
 • Pricing and Special Offers: Managing pricing, discounts, and special offers;
@@ -52,3 +50,5 @@ As of right now i have implemented only
 - Vehicle Inventory Management
 - Maintenance and Service Records
 - Damage and Incident Reporting
+- Reservation System: Customers can make, modify, and cancel reservations
+- Customer Profile Management: Managing customer information and rental history
