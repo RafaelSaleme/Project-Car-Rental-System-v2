@@ -33,9 +33,9 @@ Vehicle
 - Horsepower of the car
 - Price per day of the car
 - If the car is available or not
-- Any maintenance or service related to that car
-- Any Damage and Incidents that hapenned that the car was involved
-- Any special offer the car happen to have at the time
+- Last maintenance or service related to that car
+- Last Damage and Incidents that hapenned that the car was involved
+- Last special offer the car happen to have at the time
 
 
 User
@@ -46,7 +46,7 @@ User
 - User Nickname
 - Value the User needs to pay
 - How much money the user has in the account
-- User Reviews
+- Last User Review
 
 As of right now i have implemented only
 - Vehicle Inventory Management
