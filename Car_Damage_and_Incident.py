@@ -1,4 +1,5 @@
 import os
+import Classes
 import Car_Management
 
 user_input = ''
@@ -27,7 +28,8 @@ while user_input.lower() != '3' :
             Reg_Car['Date'] = Date
             Reg_Car['Details'] = Details
 
-            Car_Management.Car_list[Car_ID].Damage_Incident = Details
+            Car_Management.Car_list[Car_ID].Damage = Details
+            Car_Management.Car_list[Car_ID].Damage_Date = Date
 
             Damage_Reports['aux'] = Reg_Car
 
@@ -49,7 +51,8 @@ while user_input.lower() != '3' :
             Reg_Car['Date'] = Date
             Reg_Car['Details'] = Details
 
-            Car_Management.Car_list[Car_ID].Damage_Incident = Details
+            Car_Management.Car_list[Car_ID].Incident = Details
+            Car_Management.Car_list[Car_ID].Incident_Date = Date
 
             Incident_Reporting['aux'] = Reg_Car
 

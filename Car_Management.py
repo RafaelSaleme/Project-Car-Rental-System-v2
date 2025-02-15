@@ -1,27 +1,17 @@
 import os
+import Classes
 
 Car_list = {}
 user_input = ''
 
-class Vehicles:
-    def __init__(self, Brand, Model, Color, HorsePower, Price_day, Available, Maintenance_Service, Damage_Incident, Offer):
-        self.Brand = Brand
-        self.Model = Model
-        self.Color = Color
-        self.HorsePower = HorsePower
-        self.Price_day = Price_day
-        self.Available = Available
-        self.Maintenance_Service = Maintenance_Service
-        self.Damage_Incident = Damage_Incident
-        self.Offer = Offer
+os.system('cls')
 
-
-while user_input.lower() != 'exit' :
+while user_input.lower() != '3' :
 
     print("Car Management Menu\n\n")
-    user_input = input("Add, See or exit\n")
+    user_input = input("1. Add\n2. See\n3. Exit\n")
 
-    if user_input.lower() == 'add':
+    if user_input.lower() == '1':
         
         Brand = input("Insert the car Brand\n")
         Model = input("Insert the car Model\n")
@@ -29,8 +19,9 @@ while user_input.lower() != 'exit' :
         HorsePower = input("Insert the car HP(Horse Power)\n")
         Price_day = input("Insert the Rental Price\n")
         Available = input("Insert if the car is Available or not (Yes or No)\n")
-
-        New_Car = Vehicles(Brand, Model, Color, HorsePower, Price_day, Available,"No Data", "No Data", "No")
+        
+        New_Car = Classes.Vehicle(Brand, Model, Color, HorsePower, Price_day, Available, "No Data", "",
+                                   "No Data", "", "", "No Data", "", "No Data", "No Offers for this vehicle")
 
         Car_list['aux'] = New_Car
 
@@ -42,10 +33,10 @@ while user_input.lower() != 'exit' :
         print("The car was added to the car List\n")
 
 
-    elif user_input.lower() == 'see':
+    elif user_input.lower() == '2':
         os.system('cls')
         print("Car list\n")
-        print(Car_list)
+        [print(f"ID: {key}\n\n{value}\n\n") for key, value in Car_list.items()]
         print("\n")
 
 os.system('cls')
