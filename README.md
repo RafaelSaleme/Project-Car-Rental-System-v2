@@ -5,7 +5,7 @@ Car Rental System
 
 • Reservation System: Customers can make, modify, and cancel reservations;
 
-• Customer Prole Management: Managing customer information and rental history;
+• Customer Profile Management: Managing customer information and rental history;
 
 • Payment Processing: Handling payments, deposits, and refunds;
 
